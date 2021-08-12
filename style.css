@@ -13,6 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -29,6 +30,29 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+main {
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
+}
+.intro-img {
+  max-width: 100%;
+  height: 250px;
+  display: block;
+  margin: 0 auto 10px;
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000
 }
 
 .quote-container {
